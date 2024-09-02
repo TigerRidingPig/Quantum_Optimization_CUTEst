@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 def extract_model(problem_name, x_k=None):
-    script_path = '/Users/henryjia/Desktop/QHDOPTResearch/Problems/Julia_Interface/Julia_script.jl'
+    script_path = 'path to your julia script'
 
     # Prepare the command
     command = ['julia', script_path, problem_name]
